@@ -1,0 +1,29 @@
+# ── Web framework
+fastapi==0.115.12
+uvicorn==0.34.2
+orjson==3.10.18
+python-dotenv==1.1.0
+
+# ── Core chemistry / Reinvent stack
+reinvent==4.5.11
+rdkit==2025.3.2          # swap to rdkit-pypi if wheel fails
+chemprop==1.5.2
+descriptastorus==2.8.0
+mmpdb==2.1
+molvs==0.1.1
+
+# ── ML / data
+torch==2.2.2
+torchvision==0.17.2
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.3
+tqdm==4.67.1
+protobuf==5.26.1
+
+# ── Runtime helpers
+requests==2.32.3
+httpx==0.28.1
+aiohttp==3.12.2
+anyio==4.9.0
