@@ -60,6 +60,7 @@ dependencies = [
   "tqdm >=4.64,<5",
   "xarray==2025.3.0",
   "xxhash >=3,<4",
+  "uvicorn[standard]>=0.29,<1",
 ]
 
 [project.optional-dependencies]
