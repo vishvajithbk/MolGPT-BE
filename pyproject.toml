@@ -60,6 +60,12 @@ dependencies = [
   "tqdm >=4.64,<5",
   "xarray==2025.3.0",
   "xxhash >=3,<4",
+  "toml>=0.10,<1", 
+  "fastapi>=0.115,<1",          
+  "uvicorn[standard]>=0.29,<1", 
+  "python-multipart>=0.0.6,<0.0.8", 
+  "orjson>=3.10,<4",      
+  "aiofiles>=23.2,<24",        
 ]
 
 [project.optional-dependencies]
