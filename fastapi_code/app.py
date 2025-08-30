@@ -57,7 +57,8 @@ if not M2M_HIGHEST.is_file():
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    # allow_origins=["*"],
+    allow_origins=["https://vishvajithbk.github.io"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
